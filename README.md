@@ -47,9 +47,10 @@ This project is a Flask web application that provides basic user management func
    }
    ```
 4. Install the Library
+    ```bash
    pip install Flask mysql-connector-python
-
-5. Run the Flask application:
+   ```
+6. Run the Flask application:
 
    ```bash
    python app.py
