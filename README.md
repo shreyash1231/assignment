@@ -22,14 +22,7 @@ This project is a Flask web application that provides basic user management func
    ```bash
    git clone https://github.com/shreyash1231/Assignment.git
    ```
-
-2. Install required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set up your MySQL database:
+2. Set up your MySQL database:
    - Log into MySQL and create a database named `users` (or update `db_config` in `app.py` for a different name).
    - Run the following SQL query to create a `users` table:
 
@@ -42,7 +35,7 @@ This project is a Flask web application that provides basic user management func
      );
      ```
 
-4. Update the database connection details in `app.py`:
+3. Update the database connection details in `app.py`:
    - Change the values in the `db_config` dictionary to match your MySQL credentials.
 
    ```python
@@ -53,6 +46,8 @@ This project is a Flask web application that provides basic user management func
        'database': 'users'  # Your database name
    }
    ```
+4. Install the Library
+   pip install Flask mysql-connector-python
 
 5. Run the Flask application:
 
